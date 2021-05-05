@@ -2,14 +2,6 @@ body{
   font-family: "Montserrat";
 }
 
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid{
-  padding: 3% 15% !important;
-}
 h1{
   font-family: 'Montserrat';
   font-size: 3.5rem;
@@ -32,6 +24,15 @@ h3{
 
 p{
   color: grey;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7% !important;
 }
 
 /* Navigation Bar */
@@ -65,7 +66,18 @@ p{
   width: 20%;
   transform: rotate(25deg);
   position: absolute;
-  top: 120px;
+}
+
+@media (max-width: 991px){
+    #title{
+      text-align: center;
+    }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
 }
 
 /* Features */
@@ -128,6 +140,35 @@ p{
 .pricing-coloumn{
   padding: 3% 2%;
 }
+
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1;
+}
+
+
+
+
+
+
 
 
 
