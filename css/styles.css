@@ -62,10 +62,10 @@ p{
 /* Title-image */
 
 .title-image{
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
-  position: relative;
-  left: 30px;
+  position: absolute;
+  top: 120px;
 }
 
 /* Features */
