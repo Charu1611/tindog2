@@ -103,6 +103,13 @@ p{
   color: #ff4c68;
 }
 
+.social-icon{
+  color: black;
+}
+
+img.press-logo:hover{
+  background-color: grey;
+}
 /* Testimonial */
 #testimonials{
   
