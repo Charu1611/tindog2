@@ -48,7 +48,7 @@ p{
 }
 
 .navbar-brand{
-  font-family: sans-serif;
+  font-family: "Ubuntu";
   font-size: 2.5rem !important;
 }
 
@@ -72,6 +72,7 @@ p{
   width: 20%;
   transform: rotate(25deg);
   position: absolute;
+  right: 25%;
 }
 
 @media (max-width: 991px){
@@ -120,7 +121,9 @@ p{
 }
 
 img.press-logo:hover{
-  background-color: grey;
+  background-color: rgba(255,255,255,0.25);
+  padding: 3px;
+  border-radius: 10px;
 }
 /* Testimonial */
 #testimonials{
@@ -168,6 +171,7 @@ img.press-logo:hover{
 
 .social-icon{
   margin: 20px 10px;
+  color: #8f8f8f;
 }
 
 #cta{
@@ -184,8 +188,18 @@ img.press-logo:hover{
     line-height: 1.5;
 }
 
-
-
+.fa-facebook:hover{
+  color: #3b5998;
+}
+.fa-twitter:hover{
+  color: #1da1f2;
+}
+.fa-instagram:hover{
+  color: #c32aa3;
+}
+.fa-envelope:hover{
+  color: #ea4335;
+}
 
 
 
