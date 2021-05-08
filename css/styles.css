@@ -1,5 +1,5 @@
 body{
-  font-family: "Montserrat";
+  font-family: "Montserrat" !important;
 }
 
 h1{
@@ -7,6 +7,13 @@ h1{
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+
+.big-heading{
+  font-family: 'Montserrat' !important;
+  font-size: 3.5rem !important;
+  line-height: 1.5 !important;
+  font-weight: 500 !important;
 }
 
 h2{
@@ -17,9 +24,9 @@ h2{
 }
 
 h3{
-  font-family: "Montserrat-Bold";
   font-size: 1.5rem;
-  font-weight: bold !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
 }
 
 p{
@@ -41,9 +48,8 @@ p{
 }
 
 .navbar-brand{
-  font-family: "Ubuntu",sans-serif;
+  font-family: sans-serif;
   font-size: 2.5rem !important;
-  font-weight: bold;
 }
 
 .nav-item{
@@ -52,7 +58,7 @@ p{
 
 .nav-link{
   font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat";
 }
 
 /* Download-buttons */
@@ -76,7 +82,8 @@ p{
   .title-image{
     position: static;
     transform: rotate(0);
-    width: 50%;
+    width: 60%;
+    right: 30%;
   }
 }
 
@@ -92,6 +99,11 @@ p{
 .feature-box{
   text-align: center;
   padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 .icon{
@@ -166,9 +178,10 @@ img.press-logo:hover{
 }
 
 .cta-heading{
-  font-family: 'Montserrat';
-  font-size: 3rem;
-  line-height: 1;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 
